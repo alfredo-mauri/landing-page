@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@import url("./components/container.css");
+@import url("./components/banner.css");
+@import url("./components/button.css");
+@import url("./components/card.css");
+
+body {
+  margin: 0px;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 49px;
+  font-weight: 500;
+  line-height: 145%;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 210%;
+  letter-spacing: 1px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+h2,
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+#btn-try-now {
+  margin-right: 45px;
+}
